@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ht.treechop</groupId>
+  <artifactId>treechop-neoforge</artifactId>
+  <version>1.0.0-zp5.1</version>
+  <name>HT's TreeChop (NeoForge 26.3, Zoompack 5 build)</name>
+  <url>https://github.com/zoom-packers/ht-treechop-recontinued/tree/zp5/26.3</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+    </license>
+  </licenses>
+</project>
