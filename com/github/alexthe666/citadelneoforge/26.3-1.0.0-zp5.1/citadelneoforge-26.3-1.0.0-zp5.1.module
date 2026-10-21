@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.alexthe666",
+    "module": "citadelneoforge",
+    "version": "26.3-1.0.0-zp5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "citadelneoforge-26.3-1.0.0-zp5.1.jar",
+          "url": "citadelneoforge-26.3-1.0.0-zp5.1.jar",
+          "size": 3056639,
+          "sha512": "96dac48a4ae871516e045592b1806460ece36ab0147f40722ee7d91fb4d32ea595c8883a22f9bf679af0bc6828ee696f7cfa768bd624ce761a8491a7f1eafbfb",
+          "sha256": "d58d8fc11ad8bd2b8d68ffc50727441ecea69b98f6519b33f1b895a12ecf4095",
+          "sha1": "40781a744e61d426817b6b685b0ff159f549c2a6",
+          "md5": "34b459f823e087034d77ba2fc58bd3a8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jcodec",
+          "module": "jcodec",
+          "version": {
+            "requires": "0.2.5"
+          }
+        },
+        {
+          "group": "de.sfuhrm",
+          "module": "jaad",
+          "version": {
+            "requires": "0.8.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "citadelneoforge-26.3-1.0.0-zp5.1.jar",
+          "url": "citadelneoforge-26.3-1.0.0-zp5.1.jar",
+          "size": 3056639,
+          "sha512": "96dac48a4ae871516e045592b1806460ece36ab0147f40722ee7d91fb4d32ea595c8883a22f9bf679af0bc6828ee696f7cfa768bd624ce761a8491a7f1eafbfb",
+          "sha256": "d58d8fc11ad8bd2b8d68ffc50727441ecea69b98f6519b33f1b895a12ecf4095",
+          "sha1": "40781a744e61d426817b6b685b0ff159f549c2a6",
+          "md5": "34b459f823e087034d77ba2fc58bd3a8"
+        }
+      ]
+    }
+  ]
+}
